@@ -1,140 +1,51 @@
-# HTML - Linguagem de marcação de Texto
+# 🧠 Assistente de Meta para Jogos (com IA Gemini)
 
-- HyperText
-  - Textos puros, livros, revistas, jornais;
-  - Links: acessar outros documentos;
-  - Imagens, cídeos, áudios.
-- Markup
-  - Marcação
-  - Tags: <a> Link </a>
-  - Atributos: <a href="https://rocketseat.com.br"></a>
-  - Globais: id, class, ...
-- Language
-  - Linguagem;
-  - Sintaxe: maneira de escrever
+Este projeto é um assistente inteligente desenvolvido com foco em jogos competitivos como **League of Legends**, **Valorant** e **CS:GO**. Ele utiliza **IA generativa da Google (Gemini)** para responder perguntas sobre estratégias, builds e dicas de gameplay com base em atualizações recentes dos jogos.
 
-# HTTP
+A aplicação permite que o usuário escolha o jogo, insira uma pergunta e obtenha uma resposta objetiva e personalizada, formatada em **Markdown** e renderizada diretamente na interface. Todas as respostas são geradas dinamicamente com base nas instruções específicas do contexto e com suporte ao idioma utilizado pelo próprio usuário.
 
-- HyperText
-- Transfer
-  - Transferência
-- Protocol
-  - Protocolo
-  - Conjunto de regras
-- Methods HTTP: GET(Pegar informação), POST(Enviar Informação), PUT (Atualizar informação), DELETE(Deletar informação)
-- Headers (cabeçalhos): Instruções/Informações extras para cada chamada
+---
 
-# URL
+## 🎯 Objetivo do Projeto
 
-- Uniform
-  - Uniforme
-- Resource
-  - Recurso
-- Locator
-  - Localizador
+O projeto foi criado com o intuito de:
 
-Encontrar um recurso (html, css, js, pdf, png, jpg, mp4, mp3, ...)
-Endereço
+- Explorar o uso da **API Gemini da Google**.
+- Criar uma interface acessível e moderna usando **HTML, CSS e JavaScript puro**.
+- Aplicar conceitos de **prompts estruturados**, controle de **fluxo de requisições assíncronas**, e **formatação de resposta com markdown**.
+- Garantir que a IA **responda com base na linguagem do usuário** (português, por padrão).
+- Oferecer respostas **contextuais, diretas e coerentes com o patch atual** de cada jogo.
 
-# IP
+---
 
-- Internet
-  - Rede Mundial de computadores
-- Protocol
-  - Conjunto de Regras
-- Endereço do computador
-rocketseat.com.br (domínio)
-123.32.1.23 (IP)
+## ⚙️ Funcionalidades
 
-# DNS
+- 🔐 Campo para inserir a chave da API Gemini.
+- 🎮 Seletor para os jogos: League of Legends, Valorant e CS:GO.
+- 🧾 Respostas diretas, objetivas, com limite de 500 caracteres.
+- 🗣️ Suporte dinâmico à linguagem da pergunta.
+- 🖌️ Exibição de resposta formatada via Markdown usando **Showdown.js**.
+- 💡 Regras claras de uso para garantir qualidade e veracidade nas respostas.
 
-- Domain
-  - Domínio
-- Name
-  - Nome
-- Server
-  - Servidor
+---
 
-  # CSS - Linguagem de Estilo
+## 🚀 Tecnologias Utilizadas
 
-- Cascading
-   - Cascata
-   - Regras de escritas
-   - Hierarquia
-   - Especificidade
-- Style
-  - Estilo
-- Sheet
-  - Folha
+- **HTML5**, **CSS3** (com animações e responsividade)
+- **JavaScript (Vanilla)** com `fetch` assíncrono
+- **Gemini API** da Google (via endpoint REST)
+- **Showdown.js** para conversão de markdown para HTML
 
+---
 
-Estamos falando de um arquivo que terá na sua sintaxe, declarações, propriedades e valores.
-A partir disso, o HTML é impactado visualmente.
+## 📷 Demonstração
 
-- declaração
-- seletor
-- propriedade e valor
+> *(Aqui você pode inserir um print da interface ou um gif do app em funcionamento)*
 
-# JavaScript (JS)
+---
 
-- Linguagem de programação
-- Browsers
-- Input -> Process -> Output
-- Variáveis
-- Function
-  - Agrupamento e reutilização de código
-  - Sequência lógica
-  - Saída
+## 📝 Como usar
 
-- Gemini (IA): esperar uma resposta
-- Mexer no meu navegador
-- Estrutura de dados
-- Estrutura de decisão
-- Algoritmo: sequência de passos, de maneira ordenada, a fim de chegar à alguma conclusão (limitada). Um passo a passo bem detalhadoe lógico.
-- Lógica (Pensamento computacional)
-  - Abstração
-  - Decomposição
-  - Algoritmo
-  - Reconhecimento de padrão
-- Tipos de dados
-  - Number (números)
-  - String (texto) (" ", ' ', ` `)
-  - Boolean (true | false)
-  - Objects
-
-# DOM
-
-- Document
- - Documento
-- Object
-  - Objeto
-- Model
-  - Modelo
-
-# API
-
-- Aplication
-- Programming
-- Interface
-- JSON: JavaScript Object Notation
-
-# CDN
-
-- Content
-- Delivery
-- Network
-
-# LLM
-- Large
-- Language
-- Model
-- Gemini, OpenAI (chatGPT) Anthropic (Claude)...
-
-# Agentes AI
-- Tools (Ferramentar): Permitem o uso de código, ou apps, ou qualquer informação extra
-- Melhor contexto
-
-# Engenharia de Prompt
-- One shot: uma única pergunta sem muito contexto
-- Few shot: é apresentado exemplos do que se espera
-- Chain of Thought: Cadei de pensamento para a IA responder gradativamente conforme a instrução.
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/seu-repositorio.git
