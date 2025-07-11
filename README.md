@@ -40,7 +40,8 @@ O projeto foi criado com o intuito de:
 
 ## 📷 Demonstração
 
-> *(Aqui você pode inserir um print da interface ou um gif do app em funcionamento)*
+> <img width="1921" height="1033" alt="image" src="https://github.com/user-attachments/assets/99129947-ddf5-464b-a78f-01f12cc03940" />
+
 
 ---
 
