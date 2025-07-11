@@ -11,7 +11,6 @@ const markdownToHTML = (text) => {
     return converter.makeHtml(text)
 }
 
-// AIzaSyBAzOZJgqXHGSpQxSZIg1ViPbW6aJGiP8Q = chave API
 const requestAI = async (question, game, apiKey) => {
     const model = "gemini-2.5-flash"
     const geminiURL = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`
