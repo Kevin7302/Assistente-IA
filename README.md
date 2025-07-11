@@ -26,6 +26,8 @@ O projeto foi criado com o intuito de:
 - 🗣️ Suporte dinâmico à linguagem da pergunta.
 - 🖌️ Exibição de resposta formatada via Markdown usando **Showdown.js**.
 - 💡 Regras claras de uso para garantir qualidade e veracidade nas respostas.
+- ⚠️ É necessário o uso de uma chave de API do Gemini própria, para que o sistema funcione corretamente ⚠️
+  
 
 ---
 
@@ -50,3 +52,13 @@ O projeto foi criado com o intuito de:
 1. Clone o repositório:
    ```bash
    git clone https://github.com/seu-usuario/seu-repositorio.git
+   
+## 🔐 Como obter sua própria chave da API do Gemini
+
+Para utilizar este assistente, você precisa de uma chave da API do Gemini. Siga os passos abaixo:
+
+1. Acesse [https://aistudio.google.com/app/apikey](https://aistudio.google.com/app/apikey)
+2. Faça login com sua conta Google.
+3. Copie sua chave de API e cole no campo "API KEY" ao iniciar o aplicativo.
+
+> ⚠️ Sua chave é privada e pessoal. Ela permite acesso à IA da Google e pode gerar custos em caso de uso excessivo. Nunca compartilhe essa chave publicamente. ⚠️
